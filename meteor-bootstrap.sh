@@ -25,4 +25,7 @@ else
   mkdir server
   mkdir common
 
+  git init .
+  git add .
+  git commit -m 'Initial commit.'
 fi
