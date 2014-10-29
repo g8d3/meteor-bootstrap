@@ -17,9 +17,6 @@ else
   packages=(coffeescript mquandalle:jade stylus accounts-base accounts-password
     accounts-ui iron:router houston:admin bootstrap)
   meteor add ${packages[@]}
-  # for package in ${packages[@]}; do
-  #   mrt add $package > /dev/null
-  # done
 
   echo Setting up basic folder structure...
   rm $app_name.html
